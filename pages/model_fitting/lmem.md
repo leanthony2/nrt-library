@@ -18,7 +18,7 @@ folder: model_fitting
 Mixed linear models are a type of analysis used to evaluate data with non-independence that cannot otherwise be analyzed with regular linear regression.
         
 #### What is non-independence/non-independent data?
-Non-independence occurs when two or more data are connected (correlated) in some way. For example, you run an experiment collecting ratings on interest in math. Your participants make these ratings at the start of the semester and then again at the end of the semester. Each of these participants has two data points on for each rating. These pairs of data points are non-independent since they come from the same person and thus are related in ways beyond the experimental procedure (i.e. two points from one participant are more likely to be more similar to each other than two data points from two different participants). 
+Non-independence occurs when two or more data are connected (correlated) in some way. For example, you run an experiment collecting ratings on interest in math. Your participants make these ratings at the start of the semester and then again at the end of the semester. Each of these participants has two data points, one for each rating. These pairs of data points are non-independent since they come from the same person and thus are related in ways beyond the experimental procedure (i.e. two points from one participant are more likely to be more similar to each other than two data points from two different participants). 
 
 Non-independence can exist beyond repeated measures at the participant level to any items occurring within “units”, including students in classrooms, family members, etc. Mixed linear models treat these units as factors and include their effects in the model. 
         	
